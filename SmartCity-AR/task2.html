@@ -17,7 +17,18 @@
                 >
                 </a-entity>
             </a-marker>
-
+			
+			<a-marker preset="kanji">
+                <!-- raw.githack.com serves raw files directly from GitHub,
+                with proper Content-Type headers -->
+                <a-entity
+                position="0 2 0"
+                scale="1 1 1"
+                gltf-model="https://github.com/KhronosGroup/glTF-Sample-Models/blob/master/2.0/2CylinderEngine/glTF/2CylinderEngine.gltf"
+                >
+                </a-entity>
+            </a-marker>
+			
             <!-- add a camera to the scene that renders the objects for us -->
             <a-entity camera></a-entity>
         </a-scene>
